@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KIBAN — Selling Soon</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(24px, 5vw, 56px);
+    padding: 32px;
+    background: #fff;
+    color: #071a43;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .logo {
+    width: min(760px, 88vw);
+    height: auto;
+    display: block;
+  }
+  .tagline {
+    margin: 0;
+    font-size: clamp(18px, 2.6vw, 30px);
+    font-weight: 500;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    text-align: center;
+    text-indent: 0.34em;
+  }
+</style>
+</head>
+<body>
+
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">KIBAN — Foundations • Connections • Growth</title>
+  <desc id="desc">The KIBAN logo with deep navy lettering and a warm-to-violet gradient on the letter I.</desc>
+  <defs>
+    <linearGradient id="iGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9d00"/>
+      <stop offset=".27" stop-color="#ff5a16"/>
+      <stop offset=".58" stop-color="#f01891"/>
+      <stop offset="1" stop-color="#2926f4"/>
+    </linearGradient>
+    <linearGradient id="dotGradient" x1="0" y1="0" x2=".2" y2="1">
+      <stop offset="0" stop-color="#ffb900"/>
+      <stop offset="1" stop-color="#ff5a16"/>
+    </linearGradient>
+  </defs>
+  <g fill="#071a43">
+    <path d="M135 381H183V621H135Z"/>
+    <path d="M184 500L307 381H382L251 499L387 621H313Z"/>
+    <path fill-rule="evenodd" d="M565 381H749C791 381 818 405 818 447C818 472 807 490 786 500C812 509 829 530 829 559C829 599 801 621 756 621H565ZM611 424V478H747C765 478 774 468 774 451C774 434 764 424 746 424ZM611 520V578H750C770 578 780 568 780 550C780 531 769 520 749 520Z"/>
+    <path fill-rule="evenodd" d="M855 621L975 381H1023L1139 621H1082L1058 571H940L916 621ZM958 532H1040L999 435Z"/>
+    <path d="M1171 381H1219L1360 553V381H1407V621H1360L1218 448V621H1171Z"/>
+  </g>
+  <path d="M428 436L499 381V621H428Z" fill="url(#iGradient)"/>
+  <circle cx="464" cy="324" r="41.5" fill="url(#dotGradient)"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="41" font-weight="500" letter-spacing="8.1" fill="#071a43">
+    <text x="132" y="713" textLength="435" lengthAdjust="spacingAndGlyphs">FOUNDATIONS</text>
+    <text x="654" y="713" textLength="431" lengthAdjust="spacingAndGlyphs">CONNECTIONS</text>
+    <text x="1170" y="713" textLength="238" lengthAdjust="spacingAndGlyphs">GROWTH</text>
+  </g>
+  <circle cx="609" cy="699" r="8.5" fill="#1767cf"/>
+  <circle cx="1127" cy="699" r="8.5" fill="#10a77c"/>
+</svg>
+
+<p class="tagline">Selling soon</p>
+
+</body>
+</html>
